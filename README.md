@@ -1,4 +1,4 @@
-#hello world　微服务例子
+#　hello world　go 微服务例子
 
 ## 软件
 ```
@@ -15,7 +15,9 @@ https://github.com/etcd-io/etcd/releases
 
 > bin\protoc.exe  --micro_out=. --go_out=. proto/common.proto
 
-##　运行
+## 运行
 
 > go run server/main.go
+
+
 > go run client/main.go
